@@ -1,0 +1,32 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+background-color: transparent;
+color: #fff;
+border: 1.5px solid #D6EF4B;
+border-radius: 20px; 
+font-weight: 700;
+transition: all .5s;
+padding: 20px 32px;
+&:hover {
+    background-color: #D6EF4B;
+    color: black;
+    border: 1.5px solid #000;
+    cursor: pointer;
+}
+}
+.button-small {
+    padding: 12px 24px;
+}
+ .button-primary {
+    background-color:  #D6EF4B;
+    color: black;
+    border-color: #D6EF4B;
+    &:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #D6EF4B;
+    cursor: pointer;
