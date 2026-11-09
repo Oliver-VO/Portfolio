@@ -1,22 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/style/style.css" />
+    <title>Oliver Vega | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
     <header>
@@ -24,18 +18,18 @@
         <div class="container-logo">
           <img
             src="images/icons/code-square-svgrepo-com.svg"
-            alt="logo"
+            alt=""
             class="logo"
           />
-          <h2>Oliver Vega</h2>
+          <p class="logo-name">Oliver Vega</p>
         </div>
-        <nav class="nav-bar" id="nav-bar">
+        <nav class="nav-bar">
           <ul>
             <li>
-              <a href="#nav-bar">Inicio</a>
+              <a href="#inicio">Inicio</a>
             </li>
             <li>
-              <a href="#about-me">Sobre Mi</a>
+              <a href="#about-me">Sobre mí</a>
             </li>
             <li>
               <a href="#skills">Habilidades</a>
@@ -48,49 +42,50 @@
             </li>
           </ul>
         </nav>
-        <a href="#" class="button button-small">Descargar CV</a>
+        <a
+          href="https://www.linkedin.com/in/oliver-vega-ortega/"
+          target="_blank"
+          class="button button-small"
+          >Ver mi CV</a
+        >
       </section>
     </header>
+
     <main>
-      <section class="hero container title">
+      <section class="hero container title" id="inicio">
         <div class="hero-content">
-          <h2 class="secondary-title">Hola, soy</h2>
+          <p class="secondary-title">Hola, soy</p>
           <h1>Oliver Vega</h1>
-          <h2 class="secondary-title">
-            Full Stack
-            <span>Developer</span>
-          </h2>
-          <p>
-            Desarrollador web apasionado por crear aplicaciones modernas,
-            funcionales y escalables.
+          <p class="secondary-title">
+            Desarrollador web
+            <span>Junior</span>
           </p>
-          <p>Especializado en React, Node.js y MongoDB.</p>
-  
+          <p>
+            Estudiante de desarrollo web, aprendiendo a crear páginas modernas,
+            funcionales y adaptadas a cualquier pantalla.
+          </p>
+          <p>Ahora mismo trabajo con HTML, CSS y Git.</p>
         </div>
         <div class="hero-image">
-          <img src="images/formal.jpg" alt="image of me" />
+          <img src="images/formal.jpg" alt="Foto de Oliver Vega" />
         </div>
       </section>
 
       <section class="about-me container title" id="about-me">
-        <h2 class="secondary-title">Sobre Mi</h2>
-        <span class="section-title">Mucho más que código...</span>
-        
+        <h2 class="secondary-title">Sobre mí</h2>
+        <p class="section-title">Mucho más que código...</p>
+
         <p class="section-text">
-          Con más de ocho años liderando equipos, gestionando negocios y trabajando
-          en empresas internacionales. Hoy aplico esa experiencia para crear
-          aplicaciones web modernas, funcionales y orientadas a resolver
-          problemas reales.
+          Con más de ocho años liderando equipos, gestionando negocios y
+          trabajando en empresas internacionales. Hoy aplico esa experiencia
+          para crear aplicaciones web modernas, funcionales y orientadas a
+          resolver problemas reales.
         </p>
 
         <div class="container-card">
           <article class="card">
             <div class="icon">
-              <img
-                src="images/icons/people-svgrepo-com (1).svg"
-                alt="people icon"
-                class="icon-card"
-              />
+              <img src="images/icons/icon-people.svg" alt="" class="icon-card" />
             </div>
             <h3>Liderazgo</h3>
             <p>
@@ -101,26 +96,20 @@
 
           <article class="card">
             <div class="icon">
-              <img
-                src="images/icons/international-delivery-svgrepo-com (1).svg"
-                alt="globe icon"
-                class="card-icon"   />
+              <img src="images/icons/icon-globe.svg" alt="" class="icon-card" />
             </div>
             <h3>Experiencia internacional</h3>
-            <p>Puestos de responsabilidad tanto en UK, España y Portugal en CK, Adidas y Primark.</p>
+            <p>
+              Puestos de responsabilidad en Reino Unido, España y Portugal en
+              CK, Adidas y Primark.
+            </p>
           </article>
 
           <article class="card">
             <div class="icon">
-              <img
-                src="images/icons/business-office-business-store-front-place-of-business-svgrepo-com.svg"
-                alt="hand bag icon"
-                class="icon-card"
-              />
+              <img src="images/icons/icon-store.svg" alt="" class="icon-card" />
             </div>
-
             <h3>Negocio y gestión</h3>
-
             <p>
               Store Manager en Calvin Klein antes de abrir mi propio restaurante
               Nikkei.
@@ -129,179 +118,161 @@
 
           <article class="card">
             <div class="icon">
-              <img
-                src="images/icons/code-circle-svgrepo-com.svg"
-                alt="code icon"
-                class="icon-card"
-              />
+              <img src="images/icons/icon-code.svg" alt="" class="icon-card" />
             </div>
-
             <h3>Desarrollo web</h3>
-
             <p>
               Aplicando años de liderazgo y experiencia empresarial al
-              desarrollo de software.
+              desarrollo web.
             </p>
           </article>
         </div>
       </section>
 
       <section class="skills container title" id="skills">
-        <span>
         <h2 class="secondary-title">Habilidades</h2>
-      </span>
-        
+
         <div class="skills-grid">
           <article class="skill-card">
-            <img src="images/icons/html5-original.svg" alt="html" />
+            <img src="images/icons/html5-original.svg" alt="" />
             <h3>HTML</h3>
           </article>
 
           <article class="skill-card">
-            <img src="images/icons/css3-original.svg" alt="CSS" />
+            <img src="images/icons/css3-original.svg" alt="" />
             <h3>CSS</h3>
           </article>
 
           <article class="skill-card">
-            <img src="images/icons/javascript-original.svg" alt="javascript" />
-            <h3>JavaScript</h3>
-          </article>
-
-          <article class="skill-card">
-            <img src="images/icons/nodejs-original.svg" alt="Node.js" />
-            <h3>Node.js</h3>
-          </article>
-
-          <article class="skill-card">
-            <img src="images/icons/mongodb-original.svg" alt="MongoDB" />
-            <h3>MongoDB</h3>
-          </article>
-
-          <article class="skill-card">
-            <img
-              src="images/icons/mysql-original-wordmark.svg"
-              alt="mysql-original-wordmark"
-            />
-            <h3>mysql</h3>
-          </article>
-
-          <article class="skill-card">
-            <img src="images/icons/react-original.svg" alt="React" />
-            <h3>React</h3>
-          </article>
-
-          <article class="skill-card">
-            <img src="images/icons/git-plain.svg" alt="Git" />
+            <img src="images/icons/git-plain.svg" alt="" />
             <h3>Git</h3>
           </article>
+
+          <article class="skill-card">
+            <img src="images/icons/github-142-svgrepo-com.svg" alt="" />
+            <h3>GitHub</h3>
+          </article>
         </div>
       </section>
 
-      <section class="projects title" id="projects">
-        <span>
-          <h2 class="secondary-title">Proyectos Destacados</h2>
-        </span>
-          <ul class="cards">
-            <li>
-              <article class="project-card">
-                <img
-                  src="images/landing-bistro.jpg"
-                  alt="landing page bistro bliss restaurant image"
-                />
-                <h3>Bistro bliss landing page</h3>
-                <p>
-                  Sitio web para restaurante con reservas online, menú dinámico
-                  , informacion de Menú y panel de administración.
-                </p>
-                <ul class="technologies">
-                  <li>GIT</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-              </article>
-            </li>
+      <section class="projects container title" id="projects">
+        <h2 class="secondary-title">Proyectos destacados</h2>
+        <ul class="cards">
+          <li>
+            <article class="project-card">
+              <img
+                src="images/landing-bistro.jpg"
+                alt="Captura de la landing page de Bistro Bliss"
+              />
+              <h3>Bistro Bliss</h3>
+              <p>
+                Landing page para un restaurante con menú, información del local
+                y diseño adaptado a móvil.
+              </p>
+              <ul class="technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+              </ul>
+            </article>
+          </li>
 
-            <li>
-              <article class="project-card">
-                <img src="images/recipe-image.jpg" alt="recipe from the blog" />
+          <li>
+            <article class="project-card">
+              <img
+                src="images/recipe-image.jpg"
+                alt="Captura del blog de recetas"
+              />
+              <h3>Blog de recetas</h3>
+              <p>
+                Blog de recetas detalladas con ingredientes, cantidades e
+                instrucciones junto con sus imágenes.
+              </p>
+              <ul class="technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+              </ul>
+              <a
+                href="https://github.com/Oliver-VO/receta"
+                target="_blank"
+                class="project-link"
+                >Ver código</a
+              >
+            </article>
+          </li>
 
-                <h3>Blog</h3>
-                <p>
-                  blog de recetas detalladas con informacion de productos,
-                  cantidades, isntrucciones junto con sus imagenes.
-                </p>
-                <ul class="technologies">
-                  <li>React</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-              </article>
-            </li>
+          <li>
+            <article class="project-card">
+              <div class="project-icon">
+                <img src="images/icons/icon-store.svg" alt="" />
+              </div>
+              <h3>Coso One</h3>
+              <p>
+                Plataforma de gestión para restaurantes, ahora en desarrollo.
+                Calcula el coste de cada receta (escandallos) a partir de
+                ingredientes, proveedores y precios. La estoy creando con ayuda
+                de IA (Claude Code), aportando mi experiencia en hostelería.
+              </p>
+              <ul class="technologies">
+                <li>Next.js</li>
+                <li>Tailwind</li>
+                <li>Claude Code</li>
+              </ul>
+              <a
+                href="https://github.com/Oliver-VO/coso-one"
+                target="_blank"
+                class="project-link"
+                >Ver código</a
+              >
+            </article>
+          </li>
+        </ul>
+        <a
+          href="https://github.com/Oliver-VO?tab=repositories"
+          target="_blank"
+          class="button ver-proyectos"
+          >Ver todos los proyectos</a
+        >
+      </section>
 
-            <li>
-              <article class="project-card">
-                <img
-                  src="images/dashboard-image.jpg"
-                  alt="Dashboard de Gestión"
-                />
-                <h3>Dashboard de Gestión</h3>
-                <p>
-                  Dashboard completo para gestión de clientes, productos y
-                  estadísticas. Autenticación y roles de usuario.
-                </p>
-
-                <ul class="technologies">
-                  <li>React</li>
-                  <li>Node.js</li>
-                  <li>MongoDB</li>
-                </ul>
-              </article>
-            </li>
-          </ul>
-        </div>
-        <a href="#" class="button ver-proyectos">Ver todos los proyectos</a>
+      <section class="contact container title" id="contact">
+        <h2 class="secondary-title">Contacto</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Oliver-VO" target="_blank">
+              <img
+                src="images/icons/github-142-svgrepo-com.svg"
+                alt="Mi perfil de GitHub"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/oliver-vega-ortega/"
+              target="_blank"
+            >
+              <img
+                src="images/icons/linkedin-svgrepo-com.svg"
+                alt="Mi perfil de LinkedIn"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:oliver_v.o@hotmail.com">
+              <img
+                src="images/icons/mail-arrow-up-svgrepo-com.svg"
+                alt="Enviarme un correo"
+              />
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
-    
-    <footer class="footer">
-      <section class="contact title" id="contact">
-        <span>
-        <h2 class="secondary-title">Contacto</h2>
-        </span>
-        <div class="social-media">
-        <ul>
-            <li>
-              <a href="https://github.com/Oliver-VO" target="blank">
-                <img src="images/icons/github-142-svgrepo-com.svg" alt="github icon" />
-              </a>
-            </li>
-            <li>
-              <a  href="https://www.linkedin.com/in/oliver-vega-ortega/" target="blank">
-                <img
-                  src="images/icons/linkedin-svgrepo-com.svg"
-                  alt="linkedin icon image"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="mailto:oliver_v.o@hotmail.com">
-                <img src="images/icons/mail-arrow-up-svgrepo-com.svg" alt="mail icon image" />
-              </a>
-            </li>
-            <li>
-              <a href="tel:+34605377682">
-                <img src="images/icons/phone-fill-arrow-up-right-svgrepo-com.svg" alt="phone icon image" />
-              </a>
-            </li>
-          </ul>
-          </div>
-      </section>
-      <section class="copyright">
-         
-            <p>Desarrollado con HTML y CSS.</p>
-            <p>© 2026 Oliver Vega. Todos los derechos reservados.</p>
-        
-      </section>
+
+    <footer class="copyright">
+      <p>Desarrollado con HTML y CSS.</p>
+      <p>© 2026 Oliver Vega. Todos los derechos reservados.</p>
     </footer>
   </body>
 </html>
