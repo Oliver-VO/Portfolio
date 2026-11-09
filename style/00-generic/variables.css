@@ -1,6 +1,13 @@
 :root {
-     --font-primary: "Manrope", sans-serif;
-     --font-title: "Outfit", sans-serif;
-     --color-accent: #edef4b;;
-}
+  --font-primary: "Manrope", sans-serif;
+  --font-title: "Outfit", sans-serif;
+  --color-accent: #edef4b;
+  --color-bg: #000;
+  --color-bg-page: #080808;
+  --color-text: #fff;
+  --color-text-soft: #c9c9c9;
+  --color-border: #2b2b2b;
+  --card-bg: linear-gradient(180deg, #111, #070707);
+  --radius: 12px;
+  --radius-big: 18px;
 }
