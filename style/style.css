@@ -1,7 +1,10 @@
 @import url(00-generic/reset.css);
+@import url(00-generic/variables.css);
 @import url(00-generic/container.css);
 @import url(01-elements/header.css);
 @import url(01-elements/hero.css);
 @import url(01-elements/skills.css);
-@import url(01-elements/header.css);
+@import url(01-elements/projects.css);
+@import url(01-elements/about-me.css);
+@import url(01-elements/footer.css);
 @import url(02-components/buttons.css);

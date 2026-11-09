@@ -17,25 +17,28 @@
 }
 .hero-content {
     h3 {
-        color: greenyellow;
+        color:#fff;
+        margin: 0;
     }
     h1 {
         font-size: 110px;
+        margin: 0;
     }
     h2 {
         font-size: 60px;
+        margin: 0;
         span {
-            color: greenyellow;
+            color: var(--color-accent);
         }
     }
 }
-.hero-buttons {
-    display: flex;
-    gap: 2rem;
-    a {
-        gap: 12px;
-    }
+
+.hero img {
+    transition: 0.5s ease;
 }
-.hero-image {
-    ;
+
+.hero:hover img {
+    transform: translateY(-5px);
+     box-shadow: 0 0 20px rgba(237, 239, 75, 0.25);
 }
+

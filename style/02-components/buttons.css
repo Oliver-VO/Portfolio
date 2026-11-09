@@ -6,27 +6,27 @@
 .button {
 background-color: transparent;
 color: #fff;
-border: 1.5px solid #D6EF4B;
+border: 1.5px solid var(--color-accent);
 border-radius: 20px; 
-font-weight: 700;
+font-weight: 500;
 transition: all .5s;
 padding: 20px 32px;
 &:hover {
-    background-color: #D6EF4B;
+    background-color: var(--color-accent);
     color: black;
     border: 1.5px solid #000;
     cursor: pointer;
+    font-weight: 700;
 }
 }
 .button-small {
     padding: 12px 24px;
 }
  .button-primary {
-    background-color:  #D6EF4B;
+    background-color: var(--color-accent);
     color: black;
-    border-color: #D6EF4B;
+    border-color: var(--color-accent);
     &:hover {
     background-color: transparent;
     color: #fff;
-    border-color: #D6EF4B;
-    cursor: pointer;
+    border-color: var(--color-accent);

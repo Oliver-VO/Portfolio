@@ -1,4 +1,31 @@
 .skills-grid {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+          
+.skill-card {
+     background: linear-gradient(180deg, #111, #070707);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 12px;
+     transition: transform .5s ease;
+     &:hover{
+         transform: translateY(-5px);
+     }
+}
+}
+.skill-card img {
+    transition: transform .3s ease;
+}
+
+.skill-card:hover img {
+    transform: rotate(-8deg) scale(1.05);
+}
+@media (max-width: 768px) {
+    .skills-grid {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+    
 }
